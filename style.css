@@ -1,0 +1,21 @@
+.board {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  border: 1px solid black;
+  height: 500px;
+  width: 500px;
+}
+
+.tic, .tic1 {
+  display: flex;
+  border: 1px solid black;
+  background-color: rgb(103, 73, 175);
+  font-size: 80px;
+  align-items: center;
+  justify-content: center;
+}
+
+.tic1 {
+  border-radius: 60px;
+}/*# sourceMappingURL=style.css.map */
